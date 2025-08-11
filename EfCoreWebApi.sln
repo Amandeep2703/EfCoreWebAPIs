@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfCoreWebApi", "EfCoreWebApi\EfCoreWebApi.csproj", "{286E695B-1FC2-4687-A654-94CDBF41BED9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{286E695B-1FC2-4687-A654-94CDBF41BED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286E695B-1FC2-4687-A654-94CDBF41BED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286E695B-1FC2-4687-A654-94CDBF41BED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286E695B-1FC2-4687-A654-94CDBF41BED9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A05305AD-9AD5-4062-82FC-EB4CF46B5398}
+	EndGlobalSection
+EndGlobal
