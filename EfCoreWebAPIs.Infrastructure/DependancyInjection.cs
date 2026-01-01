@@ -1,6 +1,9 @@
 ﻿using EfCoreWebAPIs.Application.Interfaces;
+using EfCoreWebAPIs.Application.Services;
+using EfCoreWebAPIs.Core.Interfaces;
 using EfCoreWebAPIs.Core.Options;
 using EfCoreWebAPIs.Infrastructure.Data;
+using EfCoreWebAPIs.Infrastructure.Repositories;
 using EfCoreWebAPIs.Infrastructure.Repositories.EmployeeRepository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -29,6 +32,11 @@ namespace EfCoreWebAPIs.Infrastructure
 
 
             services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IBookService, BookService>();
+            services.AddScoped<IBookRepository, BookRepository>();
+            services.AddScoped<ILanguageRepository, LanguageRepository>();
+
 
             //registering the external endpoints
 
